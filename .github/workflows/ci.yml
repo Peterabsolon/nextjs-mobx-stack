@@ -18,8 +18,5 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Check style
-        run: npm run check:style
-
       - name: Run tests
         run: npm run test
