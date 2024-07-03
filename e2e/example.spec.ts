@@ -1,8 +1,8 @@
-import { test, expect } from "@playwright/test";
+import { expect, test } from '@playwright/test'
 
-const APP_URL = "http://localhost:3000";
+const APP_URL = 'http://localhost:3000'
 
-test("has title", async ({ page }) => {
-  await page.goto(APP_URL);
-  await expect(page).toHaveTitle(/Pokedex/);
-});
+test('has title', async ({ page }) => {
+  await page.goto(APP_URL)
+  await expect(page).toHaveTitle(/Pokedex/)
+})
