@@ -20,7 +20,7 @@
     "prettier": "./node_modules/.bin/prettier --write 'src/**/*.{ts,tsx}'",
     "prettier:staged": "pretty-quick --staged",
     "check:style": "npm run prettier:staged && npm run lint",
-    "check:health": "npm run test && npm run build",
+    "check:health": "npm run build && npm run test && npm run test:e2e",
     "check:all": "npm run check:style && npm run check:health",
     "sb": "storybook dev -p 6006",
     "sb:build": "storybook build"
