@@ -1,4 +1,13 @@
-# Pokedex
+# NextJS MobX stack
+
+## Tech
+
+- NextJS
+- MobX
+- Tailwind
+- Framer Motion
+- Storybook
+- Playwright
 
 ## Development
 
